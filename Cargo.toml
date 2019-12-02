@@ -1,0 +1,13 @@
+[workspace]
+
+[package]
+name = "swc"
+version = "0.1.0"
+license = "MIT"
+
+[lib]
+name = "swc"
+crate-type = ["cdylib"]
+
+[dependencies]
+swc = { git = "https://github.com/swc-project/swc.git" }
